@@ -1,0 +1,124 @@
+
+
+* {
+	outline: none;
+	margin: 0;
+}
+button,a{
+	text-decoration: none;
+}
+
+
+
+#canvas {
+	color: #FFF;
+	float: left;
+}
+
+#score {
+	width:150px;
+	height: 40px;
+	font-family: 'Erica One', cursive;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 40px;
+}
+
+
+
+#vie {
+	font-size:35px;
+	font-family: 'Erica One', cursive;
+	margin-top: 45px;
+}
+
+#info{
+	margin top:40px;
+	display: block;
+}
+
+.infoJ{
+	margin-top: 5%;
+	color:#2c75ff;
+}
+
+.infoS{
+	margin-top: 5%;
+	color:#ed0000;
+}
+
+
+.reseau{
+	position: fixed;
+	top:0;
+	right:0;
+	font-size:30px;
+	color:#FFFFFF;
+	margin-right: 5px;
+}
+
+
+
+#Facebook{
+	margin-right: 100px;
+}
+
+#Twitter{
+	margin-right: 68px;
+}
+
+#Instagram{
+	margin-right: 36px;
+
+}
+
+#p{
+	margin-left: 50px;
+}
+
+#social{
+	position: absolute;
+	right:0px;
+	margin-top:5px; 
+}
+
+
+#game{
+	position: relative;
+	height:900px;
+	width:100%;
+	background: url("../images/ciel.jpg") no-repeat;
+}
+
+#jeu{
+	display: block;
+	position: absolute;
+	margin-left: 27%;
+}
+
+.truc{
+	display: block;
+	position: fixed;
+	top:0;
+	font-size:20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 3px;
+	border:none;
+	background-color: white;
+}
+
+#chase{
+	margin-left: 33%;
+	display: inline;
+}
+
+#regles{
+	width:150px;
+	height: 250px;
+	color:#FFFFFF;
+	font-size: 20px;
+	font-family: 'Cabin Condensed', sans-serif;
+	margin-left: 7%;
+	margin-top: 10%;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  	<meta charset="UTF-8">
+ 	 <title>Chase Wars</title>
+ 	 <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
+  	<link rel="stylesheet" href="styles/style.css">
+  	<link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Erica+One' rel='stylesheet' type='text/css'>
+   	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+	<section id="fond"> 
+			<audio  id="audioPlayer"  autoplay loop >
+				<source src="audios/starwars.mp3"></source>
+				<source src="audios/starwars.ogg"></source>
+			</audio>
+		<button class="control truc"   onclick="play('audioPlayer', this)"><i class="fa fa-play"></i></button>
+		<button class="control truc" id="p" onclick="pause('audioPlayer', this)"><i class="fa fa-pause"></i></button>
+		<span id="social">
+		<a id="Facebook" href="https://www.facebook.com/chasewars" class="reseau"><i class="fa fa-facebook-square"></i></a>
+		<a id="Twitter" href="https://twitter.com/chasewars" class="reseau"><i class="fa fa-twitter-square"></i></a>
+		<a id="Instagram" href="#" class="reseau"><i class="fa fa-instagram"></i></a>
+		<a id="youtube" href="#" class="reseau"><i class="fa fa-youtube-square"></i></a>
+		</span>
+		<div id="images">
+			<img src="images/sabrebleu.png" id="bleu">
+			<img src="images/logo.png" id="titre">
+			<img src="images/sabrerouge.png" id="rouge">
+		</div>
+		<a id="play" class="scrollTo" href="#jeu">Play</a>
+</section>
+<section id="jeu" href="game">
+<h2> Choisis ton camp, Joueur 1</h2>
+	<div id="jedi" class="cote">
+		<img src="images/jedi.png" id="logoJ" /> 
+		<a href="chasewars.html"><p id="J">Jedi</p></a>
+	</div>
+	<div id="sith" class="cote">
+		<img src="images/sith.png" id="logoS">
+		<a href="chasewarsSith.html"><p id="S">Sith</p> </a>
+	</div>
+</section>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+
+</body>
+</html>

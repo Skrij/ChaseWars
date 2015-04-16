@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="styles/style2.css" />
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Erica+One' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed' rel='stylesheet' type='text/css'>
+        <title>Chase wars</title>
+    </head>
+    <body>
+   
+    <section id="game">
+        <audio  id="audioPlayer" autoplay loop >
+            <source src="audios/Cantina.mp3"></source>
+        </audio>
+        <button class="control truc"   onclick="play('audioPlayer', this)"><i class="fa fa-play"></i></button>
+        <button class="control truc"   onclick="pause('audioPlayer', this)" id="p"><i class="fa fa-pause"></i></button>
+        <img src="images/chase.png" id="chase">
+        <span id="social">
+        <a id="Facebook" href="https://www.facebook.com/chasewars" class="reseau"><i class="fa fa-facebook-square"></i></a>
+        <a id="Twitter" href="https://twitter.com/chasewars" class="reseau"><i class="fa fa-twitter-square"></i></a>
+        <a id="Instagram" href="#" class="reseau"><i class="fa fa-instagram"></i></a>
+        <a id="youtube" href="#" class="reseau"><i class="fa fa-youtube-square"></i></a>
+        </span>
+        <audio id="player"></audio>
+        <div id="info">
+        <span id="vie" class="infoJ "> Vie(s) : </span>
+        <span id="score" class="infoJ ">Score :</span>
+        </div>
+        <div id="jeu"></div>
+        <div id="regles">
+            <p>La force a été dispersée! Yoda (J1) doit récupérer toutes les orbes bleues en se déplacant avec les flèches directionelles. Dark Vador (J2) veut l'en empêcher en le touchant. Il se déplace avec Z,Q,S,D.</p>
+        </div>
+    </section>
+        <script type="text/javascript" src="scripts/mainJeu.js"></script>
+        <script type="text/javascript" src="scripts/afficherPlateau.js"></script>
+        <script type="text/javascript" src="scripts/finDePartie.js"></script>
+        <script type="text/javascript" src="scripts/redessinerCanvas.js"></script>
+        <script type="text/javascript" src="scripts/deplacementEnnemi.js"></script>
+        <script type="text/javascript" src="scripts/deplacementHero.js"></script>
+    </body>
+</html>

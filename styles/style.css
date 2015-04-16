@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+}
+
+a, button{
+	text-decoration: none;
+}
+
+#fond{
+	position: absolute;
+	height:900px;
+	width:100%;
+	background: url("../images/ciel.jpg") no-repeat ;
+
+}
+#titre{
+	position: absolute;
+	margin-top:40px;
+	margin-left:12px;
+}
+
+#rouge{
+	position: relative;
+	margin-left: 500px;
+}
+img{
+	display:inline-block;
+}
+
+#play{
+	position: relative;
+	text-align: center;
+	margin-top: -5px;
+	display: block;
+	height:70px;
+	margin-left:41%;
+	width:180px;
+	font-size: 40px;
+	border:thin solid #FFFFFF;
+	border-width: 3px;
+	color:#f1ff10;
+	border-radius: 25px;
+	background:transparent;
+	padding-bottom: 7px;
+	font-size: 50px;
+	transition:0.3s;
+    font-family: 'Erica One', cursive;
+}
+
+#play:hover{
+	background:#f1ff10;
+	color:black;
+	transition:0.3s;
+}
+
+.truc{
+	display: block;
+	position: fixed;
+	top:0;
+	font-size:20px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 3px;
+	border:none;
+	background-color: white;
+}
+
+#p{
+	margin-left: 50px;
+}
+
+#jeu{
+	position: absolute;
+	margin-top: 800px;
+	width:100%;
+	height:800px;
+	background:url("../images/ciel.jpg") no-repeat ;
+}
+
+.reseau{
+	position: fixed;
+	top:0;
+	right:0;
+	font-size:30px;
+	color:#FFFFFF;
+	margin-right: 5px;
+}
+
+
+
+#Facebook{
+	margin-right: 100px;
+}
+
+#Twitter{
+	margin-right: 68px;
+}
+
+#Instagram{
+	margin-right: 36px;
+
+}
+
+.cote{
+	position: absolute;
+	display: inline block;
+	width:50%;
+	height:600px;
+}
+
+#logoS{
+	margin-top: 10%;
+	margin-left: 13%;
+}
+
+#logoJ{
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+#sith{
+	right:0px;
+}
+
+h2{
+	color:#FFFFFF;
+	font-size: 45px;
+	font-family: 'Erica One', cursive;
+	margin-left: 20%;
+
+}
+
+p{
+	color:#FFFFFF;
+	font-size: 100px;
+	font-family: 'Erica One', cursive;
+	margin-top: 25px;
+}
+
+#J{
+	margin-left: 25%;
+	transition:0.3s;
+}
+
+#J:hover{
+	margin-left: 21%;
+	color:#03bdff;
+	font-size: 120px;
+	transition:0.3s;
+  }
+
+
+ #S{
+	margin-left: 27%;
+	transition:0.3s;
+ }
+
+ #S:hover{
+ 	margin-left: 23%;
+	color:#FF1f1f;
+	font-size: 120px;
+	transition:0.3s;
+ }
